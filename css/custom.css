@@ -1,0 +1,118 @@
+.distack {
+    padding: 0 8px;
+    display: inline;
+    background-color: yellow;
+}
+
+.desconto {
+    padding: 8px 8px;
+    display: inline;
+    background-color: orange;
+    color: #fff;
+}
+
+.outline-btn {
+    background-color: #5cad00;
+    color: #fff !important;
+    border-color: #4c8d02;
+}
+
+.main-btn:hover {
+    color: #fff !important;
+}
+
+a.step-link p {
+    color: #868F9B !important;
+}
+
+.step {
+    border: 1px solid transparent;
+    background-color: transparent;
+
+    transition: border .5s, background-color .5s;
+}
+
+.step:hover {
+    background-color: #fff;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+
+    transition: border .5s, background-color .5s;
+}
+
+.secure-logo {
+    margin: 60px 0 0 0;
+}
+
+#home .home-wrapper {
+    top: 46.4569875% !important;
+}
+
+.h1-title {
+    color: gold;
+}
+
+.bg-img .overlay {
+    opacity: .9 !important;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.oferta {
+    font-size: 3.423em;
+    font-weight: bold;
+}
+
+.btn-style-1 {
+    padding: 22px 59px;
+    border-color: rgba(0,0,0,.73);
+    border-width: 0;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    background: #0c0;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#0c0),color-stop(100%,#0c0));
+    background: -webkit-linear-gradient(top,#0c0 0%,#0c0 100%);
+    background: -moz-linear-gradient(top,#0c0 0%,#0c0 100%);
+    background: -ms-linear-gradient(top,#0c0 0%,#0c0 100%);
+    background: -o-linear-gradient(top,#0c0 0%,#0c0 100%);
+    background: linear-gradient(to bottom,#0c0 0%,#0c0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0c0,endColorstr=#0c0,GradientType=0);
+    box-shadow: 0 0 0 0 rgba(0,0,0,.5), inset 0 -5px 1px 1px rgba(0,0,0,.8);
+    color: #fff;
+    font-size: 1.532em;
+    font-weight: bold;
+    text-shadow: #000 2px 2px 0;
+}
+
+.btn-style-1:hover {
+    color: #fff;
+}
+
+.cards {
+    display: inline !important;
+}
+
+#demo {
+    color: #000;
+    font-size: 3em;
+}
