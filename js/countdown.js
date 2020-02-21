@@ -23,6 +23,10 @@ var x = setInterval(function () {
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "PROMOÇÃO ENCERRADA :(";
+        $('.oferta').html("R$ 380,00");
+        $('.promocao').html("Por APENAS");
+        $('.contador').remove();
+        $('.aproveite').html("Compre AGORA!");
     }
 }, 1000);
